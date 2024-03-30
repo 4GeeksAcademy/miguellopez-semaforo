@@ -10,3 +10,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: url("https://images.pexels.com/photos/1133505/pexels-photo-1133505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+  }
+
+.light {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+    margin-top: 5px;
+}
+
+.yellow {
+    background-color: yellow;
+    margin-top: 5px;
+}
+
+.green {
+    background-color: green;
+    margin-top: 5px;
+}
+
+.purple {
+    background-color: purple;
+    margin-top: 5px;
+}
+
+.semaforo {
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: white solid 5px;
+}
+
+.glow {
+    box-shadow: 0px 0px 15px 15px #0ff;
+}
+
+.boton1 {
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    padding-bottom: 50px;
+    border-color: white;
+    color: black;
+}
+
+.boton2 {
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    padding-bottom: 50px;
+    border-color: white;
+    color: black;
+}
+
+.frase-grande p {
+    font-size: 30px; 
+    text-shadow: 6px 6px 10px #000; 
+    padding-left: 200px;
+    padding-top: 300px;
+    color: white;
+}
+
